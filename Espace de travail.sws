@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?PowerDesigner signature="Workspace" version="15.1.0.2850"?>
+<!-- Veuillez ne pas modifier ce fichier -->
+
+<Workspace>
+	<Local Expanded="Yes">
+		<Model Expanded="Yes" ID="{33F3D896-7894-45C3-8DA2-DB70A3523387}" Name="Diagramme_Classes_Domotique" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Diagramme_Classes_Domotique.moo"/>
+		<Model Expanded="Yes" ID="{E484A956-2FA4-4E3E-AC3A-71D8EED780EA}" Name="Analyse d&#39;impact pour la sélection" Type="{E76C14C6-992E-4E51-89E0-45EFBA0EBED3}" URL="Analyse d&#39;impact pour la sélection.mai"/>
+	</Local>
+	<BrowserModule Name="Référentiel"/>
+</Workspace>

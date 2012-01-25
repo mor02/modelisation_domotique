@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?PowerDesigner AppLocale="UTF16" ID="{E484A956-2FA4-4E3E-AC3A-71D8EED780EA}" Label="" LastModificationDate="1327421723" Name="Analyse d&#39;impact pour la sélection" Objects="6" Symbols="0" Type="{E76C14C6-992E-4E51-89E0-45EFBA0EBED3}" signature="IAM_MODEL_XML" version="15.1.0.2850"?>
+<!-- Veuillez ne pas modifier ce fichier -->
+
+<Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
+
+<o:RootObject Id="o1">
+<c:Children>
+<o:ImpactAnalysisModel Id="o2">
+<a:ObjectID>E484A956-2FA4-4E3E-AC3A-71D8EED780EA</a:ObjectID>
+<a:Name>Analyse d&#39;impact pour la sélection</a:Name>
+<a:Code>Analyse d&#39;impact pour la sélection</a:Code>
+<a:CreationDate>1327421714</a:CreationDate>
+<a:Creator>AMGHAR</a:Creator>
+<a:ModificationDate>1327421714</a:ModificationDate>
+<a:Modifier>AMGHAR</a:Modifier>
+<a:PackageOptionsText>[FolderOptions]
+
+[FolderOptions\Impact Analysis Model Objects]
+GenerationCheckModel=Yes
+GenerationPath=
+GenerationOptions=
+GenerationTasks=
+GenerationTargets=
+GenerationSelections=</a:PackageOptionsText>
+<a:ModelOptionsText>[ModelOptions]
+
+[ModelOptions\Impact Analysis Model options]
+CaseSensitive=Yes
+DisplayName=Yes
+EnableTrans=No
+EnableRequirements=No
+
+[ModelOptions\Impact Analysis Model options\NamingOptionsTemplates]
+
+[ModelOptions\Impact Analysis Model options\ClssNamingOptions]
+
+[ModelOptions\Impact Analysis Model options\ClssNamingOptions\DefaultClass]
+
+[ModelOptions\Impact Analysis Model options\ClssNamingOptions\DefaultClass\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Impact Analysis Model options\ClssNamingOptions\DefaultClass\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion</a:ModelOptionsText>
+<a:AnalysisDate>1327421714</a:AnalysisDate>
+<c:RuleSets>
+<o:Shortcut Id="o3">
+<a:ObjectID>26477BD3-7925-4D8D-A5CD-518E36CA0BEF</a:ObjectID>
+<a:Name>Analyse d&#39;impact globale</a:Name>
+<a:Code>GLOBAL_IMPACT_ANALYSIS</a:Code>
+<a:CreationDate>1327421714</a:CreationDate>
+<a:Creator>AMGHAR</a:Creator>
+<a:ModificationDate>1327421714</a:ModificationDate>
+<a:Modifier>AMGHAR</a:Modifier>
+<a:TargetStereotype/>
+<a:TargetID>E66D5C28-3B36-4478-9594-D73F906E506B</a:TargetID>
+<a:TargetClassID>2909DEB5-FEB5-490C-A046-74D3DC92D81B</a:TargetClassID>
+</o:Shortcut>
+<o:Shortcut Id="o4">
+<a:ObjectID>E3CEF666-6697-47C2-A4B9-573966FFE317</a:ObjectID>
+<a:Name>Analyse de lignage globale</a:Name>
+<a:Code>GLOBAL_LINEAGE_ANALYSIS</a:Code>
+<a:CreationDate>1327421714</a:CreationDate>
+<a:Creator>AMGHAR</a:Creator>
+<a:ModificationDate>1327421714</a:ModificationDate>
+<a:Modifier>AMGHAR</a:Modifier>
+<a:TargetStereotype/>
+<a:TargetID>84A8F62F-A0F4-422F-878F-C629A83E0F55</a:TargetID>
+<a:TargetClassID>2909DEB5-FEB5-490C-A046-74D3DC92D81B</a:TargetClassID>
+</o:Shortcut>
+</c:RuleSets>
+<c:ImpactAnalysisDiagrams>
+<o:ImpactAnalysisDiagram Id="o5">
+<a:ObjectID>A12C03A8-253B-48C6-A846-ACF250A87905</a:ObjectID>
+<a:Name>Diagramme_1</a:Name>
+<a:Code>Diagramme_1</a:Code>
+<a:CreationDate>1327421723</a:CreationDate>
+<a:Creator>AMGHAR</a:Creator>
+<a:ModificationDate>1327421723</a:ModificationDate>
+<a:Modifier>AMGHAR</a:Modifier>
+<a:DisplayPreferences>[DisplayPreferences]
+
+[DisplayPreferences\IAM]
+
+[DisplayPreferences\General]
+Adjust to text=Yes
+Snap Grid=No
+Constrain Labels=Yes
+Display Grid=No
+Show Page Delimiter=Yes
+Grid size=0
+Graphic unit=2
+Window color=255, 255, 255
+Background image=
+Background mode=8
+Watermark image=
+Watermark mode=8
+Show watermark on screen=No
+Gradient mode=0
+Gradient end color=255, 255, 255
+Show Swimlane=No
+SwimlaneVert=Yes
+TreeVert=No
+CompDark=0
+
+[DisplayPreferences\Object]
+Mode=2
+Trunc Length=40
+Word Length=40
+Word Text=!&quot;&quot;#$%&amp;&#39;()*+,-./:;&lt;=&gt;?@[\]^_`{|}~
+Shortcut IntIcon=Yes
+Shortcut IntLoct=Yes
+Shortcut IntFullPath=No
+Shortcut IntLastPackage=Yes
+Shortcut ExtIcon=Yes
+Shortcut ExtLoct=No
+Shortcut ExtFullPath=No
+Shortcut ExtLastPackage=Yes
+Shortcut ExtIncludeModl=Yes
+ImpactAnalysisObject.IconPicture=No
+ImpactAnalysisObject_SymbolLayout=
+ImpactAnalysisObject.ImpactedModelName=Yes
+ImpactAnalysisObject.ShortDisplayName=Yes
+ImpactAnalysisObject.Event=Yes
+ImpactLinkSymbol.CenterText=Yes
+InitObj=Yes
+
+[DisplayPreferences\Symbol]
+
+[DisplayPreferences\Symbol\IMPANALOBJ]
+IMDNFont=Arial,8,N
+IMDNFont color=0, 0, 0
+SDSNFont=Arial,8,N
+SDSNFont color=0, 0, 0
+ACTNFont=Arial,8,N
+ACTNFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 0 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\SYMLNK]
+Link NameFont=Arial,8,N
+Link NameFont color=0, 0, 0
+Line style=0
+Pen=1 0 0 0 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\Free Symbol]
+Free TextFont=Arial,8,N
+Free TextFont color=0, 0, 0
+Line style=0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 0 255
+Shadow color=192 192 192
+Shadow=0</a:DisplayPreferences>
+<a:PaperSize>(8268, 11693)</a:PaperSize>
+<a:PageMargins>((315,354), (433,354))</a:PageMargins>
+<a:PageOrientation>1</a:PageOrientation>
+<a:PaperSource>15</a:PaperSource>
+</o:ImpactAnalysisDiagram>
+</c:ImpactAnalysisDiagrams>
+<c:DefaultDiagram>
+<o:ImpactAnalysisDiagram Ref="o5"/>
+</c:DefaultDiagram>
+<c:TargetModels>
+<o:TargetModel Id="o6">
+<a:ObjectID>DAD26568-B64E-4222-871E-3064ACEC2B9F</a:ObjectID>
+<a:Name>Analyse d&#39;impact globale</a:Name>
+<a:Code>GLOBAL_IMPACT_ANALYSIS</a:Code>
+<a:CreationDate>1327421714</a:CreationDate>
+<a:Creator>AMGHAR</a:Creator>
+<a:ModificationDate>1327421714</a:ModificationDate>
+<a:Modifier>AMGHAR</a:Modifier>
+<a:TargetModelURL>file:///%_RULESET%/Global Impact Analysis.rul</a:TargetModelURL>
+<a:TargetModelID>E66D5C28-3B36-4478-9594-D73F906E506B</a:TargetModelID>
+<a:TargetModelClassID>2909DEB5-FEB5-490C-A046-74D3DC92D81B</a:TargetModelClassID>
+<c:SessionShortcuts>
+<o:Shortcut Ref="o3"/>
+</c:SessionShortcuts>
+</o:TargetModel>
+<o:TargetModel Id="o7">
+<a:ObjectID>06B2B3A3-22F9-4A67-8617-5AC93981960D</a:ObjectID>
+<a:Name>Analyse de lignage globale</a:Name>
+<a:Code>GLOBAL_LINEAGE_ANALYSIS</a:Code>
+<a:CreationDate>1327421714</a:CreationDate>
+<a:Creator>AMGHAR</a:Creator>
+<a:ModificationDate>1327421714</a:ModificationDate>
+<a:Modifier>AMGHAR</a:Modifier>
+<a:TargetModelURL>file:///%_RULESET%/Global Lineage Analysis.rul</a:TargetModelURL>
+<a:TargetModelID>84A8F62F-A0F4-422F-878F-C629A83E0F55</a:TargetModelID>
+<a:TargetModelClassID>2909DEB5-FEB5-490C-A046-74D3DC92D81B</a:TargetModelClassID>
+<c:SessionShortcuts>
+<o:Shortcut Ref="o4"/>
+</c:SessionShortcuts>
+</o:TargetModel>
+</c:TargetModels>
+</o:ImpactAnalysisModel>
+</c:Children>
+</o:RootObject>
+
+</Model>
